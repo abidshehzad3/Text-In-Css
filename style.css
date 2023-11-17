@@ -1,0 +1,171 @@
+/* FONT FAMILY */
+/* body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+         h1, h2 {
+                 font-family: Arial, Verdana, sans-serif;}
+         .credits {
+                 font-family: "Courier New", Courier, 
+                 monospace;} */
+
+ /* FONT SIZE */
+        /* pixels */
+        /* p{
+            font-size: 160px;
+        } */
+        /* percentage */
+        /* p{
+            font-size: 200%;
+        } */
+        /* defulat values */
+        /* p{
+            font-size: xx-large;
+        } */
+        /* em */
+        /* p{
+            font-size: 2em;
+        } */
+
+/* FONT FACE */
+        /* @font-face {
+         font-family: test;
+        src: url('./fonts/Vina_Sans/VinaSans-Regular.ttf');
+        }  
+ 
+        h1{
+        font-family: test ;
+        } */
+
+ /* FONT WEIGHT */
+        /* p{
+            font-weight: bold;
+        } */
+
+/* FONT STYLE */
+        /* #normal{
+            font-style: normal;
+        }
+        #italic{
+            font-style: italic;
+        }
+        #oblique{
+            font-style: oblique;
+        } */
+
+/* TEXT TRANSFORMATION */
+        /* H1{
+            text-transform: capitalize;
+        } */
+/* TEXT DECROTATION */
+       /* #none{
+        text-decoration: none;
+       }
+       #underline{
+        text-decoration: underline;
+       }
+       #overline{
+        text-decoration: overline;
+       }
+       #line-through{
+        text-decoration: line-through;
+       } */
+
+/* LINE HEIGHT /leading*/
+       /* p{
+        line-height: 100px;
+       }
+        */
+
+/* letter & word spacing */
+       /* h1{
+        word-spacing: 20px;
+        letter-spacing: 13px;
+       } */ 
+       
+/*TEXT ALIGN  */
+       /* h1{
+        text-align: justify;
+       } */
+
+/* VERTICAL ALIGN  */
+       /* img{
+        vertical-align: text-top;
+       } */
+
+/* TEXT INDENT */
+       /* p{
+        text-indent: 150px;
+       } */
+
+/* TEXT SHADOW */
+     /* h1{
+        background-color: #eeeeee;
+        color: #666666;
+        text-shadow: 1px 1px 0px red;
+
+     } */
+
+/* first letter and line */
+/* p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: blue;
+} */
+
+/* styling links */
+        /* a:link{
+            color: green;
+        }
+        a:visited{
+            color: red;
+        } */
+
+/* responding to user */
+        /* hover */
+       /* input.btn:hover{
+        background-color: wheat;
+       }
+       input.btn:active{
+        background-color: red;
+       } */
+       /* input.btn:focus{
+        background-color: blue;
+       }
+       input.textbox:focus{
+        background-color: black;
+        color: white;
+       } */
+
+/* ATTRIBUTE SELECTORS */
+
+/* existance */
+      /* h1[name]{
+        color: red;
+      } */
+
+/* equlity  */
+     /* h1[test="hi"]{
+        color: red;
+     } */
+
+/* space */
+        /* h1[test~="world"]{
+            color: red;
+        } */
+
+/* prefix */
+        /* h1[test^=h]{
+            color: red;
+        } */
+
+/* substring */
+       /* h1[test*="el"]
+       {
+        color: red;
+       } */
+
+/* suffix */
+      /* h1[test$="l"]{
+        color: red;
+      } */
